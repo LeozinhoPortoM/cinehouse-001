@@ -10,8 +10,11 @@ function listarTodosOsFilmes(filmes) {
     console.log(filmes[i].titulo);
   }
 }
-listarTodosOsFilmes(catalogoObj.data);
+//listarTodosOsFilmes(catalogoObj.data);
 
+
+// const listarFilmesEmCartaz = (filmes) =>
+//   filmes.filter((filme) => filme.emCartaz);
 
 function listarFilmesEmCartaz(filmes) {
   const filmesEmCartaz = filmes.filter((filme) => {
@@ -21,4 +24,5 @@ function listarFilmesEmCartaz(filmes) {
   });
   return filmesEmCartaz;
 }
-console.log(listarFilmesEmCartaz(catalogoObj.data));
+//console.log(listarFilmesEmCartaz(catalogoObj.data));
+
