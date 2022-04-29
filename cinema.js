@@ -39,4 +39,3 @@ function alterarStatusEmCartaz(id, filmes) {
 }
 console.log(alterarStatusEmCartaz(1, catalogoObj.data));
 console.log(catalogoObj.data);
-
